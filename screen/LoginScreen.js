@@ -35,12 +35,12 @@ export default class LoginScreen extends Component {
                     </TouchableOpacity>
                 </View>
 
-                <TouchableOpacity onPress={this.navigateTo} ><Text>kkj</Text></TouchableOpacity>
+              
             </View>
         )
     }
 
-    navigateTo=()=>{this.props.navigation.navigate('Home')}
+    
 
     _login=()=>{
         if(userInfo.username===this.state.username && userInfo.password===this.state.password){
